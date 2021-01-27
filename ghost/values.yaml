@@ -1,5 +1,5 @@
 Service:
-  type: NodePort
+  type: LoadBalancer
   port: 80
   targetPort: 2368
   nodePort: 30007
